@@ -15,9 +15,9 @@ Ext.define('Currencies.view.charts.theme.DemoTheme', {
                 }
             }
         },
-        colors: [ '#4dc3ff', '#f2abb3', '#3498DB', '#C0392B', '#9B59B6' ],
+        colors: ['#4dc3ff', '#f2abb3', '#3498DB', '#C0392B', '#9B59B6'],
         seriesThemes: [{
-        	opacity: 0.5
+            opacity: 0.5
         }]
     }
 

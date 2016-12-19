@@ -6,7 +6,7 @@ Ext.define('Currencies.view.charts.axis.FixedNumericAxis', {
     },
     getThickness: function () {
         var customWidth = this.getFixedAxisWidth();
-        if( customWidth ) {
+        if (customWidth) {
             return customWidth;
         }
         else {

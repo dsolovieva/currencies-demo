@@ -5,9 +5,9 @@
  */
 Ext.define('Currencies.Application', {
     extend: 'Ext.app.Application',
-    
+
     name: 'Currencies',
-    
+
     launch: function () {
         Ext.util.Format.thousandSeparator = " ";
     }
