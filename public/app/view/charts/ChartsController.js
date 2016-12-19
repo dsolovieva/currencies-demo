@@ -89,7 +89,6 @@ Ext.define('Currencies.view.charts.ChartsController', {
       },
 
       addNewData : function() {
-//      debugger;
         var me = this, charts = me.getView().query('cartesian'),
         appChartStore = Currencies.getApplication().getStore('Chart');
 
@@ -168,7 +167,7 @@ Ext.define('Currencies.view.charts.ChartsController', {
                     var formPanelDropTarget = new Ext.dd.DropTarget(cartesian.getEl(), {
                           ddGroup : 'chartDDGroup',
                           notifyDrop : function(ddSource, event, data) {
-                            var chartView = view.ownerCt;
+                            var chartView = view.ownerCt.ownerCt;
                             ddSource.view.ownerCt.fireEvent("notifyDropRecord", ddSource, event, data, chartView, cartesian);
                             return true;
                           }
