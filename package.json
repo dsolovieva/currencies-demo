@@ -1,0 +1,17 @@
+{
+  "name": "currencies-demo",
+  "version": "0.0.1",
+  "description": "Historical currency values and charts",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jade": "*",
+    "restler": "^3.4.0",
+    "xml2js": "^0.4.17"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "debug": "node debug index.js"
+  }
+}
