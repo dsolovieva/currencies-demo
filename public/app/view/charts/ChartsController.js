@@ -226,7 +226,7 @@ Ext.define('Currencies.view.charts.ChartsController', {
         if (last != undefined && last != null) {
           lastDate = last.data.dateEnd;
         }
-        store.proxy.setExtraParam("dateStart", lastDate || Ext.Date.now() - day);// yesterday
+        store.proxy.setExtraParam("dateStart", lastDate || Ext.Date.now() - 30 * day);// yesterday
         store.proxy.setExtraParam("dateEnd", Ext.Date.now());// tomorrow
 
         var graphList = [];
