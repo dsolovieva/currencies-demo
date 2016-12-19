@@ -2,6 +2,7 @@ Ext.define('Currencies.view.currencies.CurrenciesGrid', {
       extend : 'Ext.grid.Panel',
       xtype : 'currenciesgrid',
       rowLines : true,
+      requires: ['Currencies.store.CurrenciesData'],
       emptyText: 'Data is loading...',
       viewConfig : {
         plugins : {

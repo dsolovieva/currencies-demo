@@ -2,7 +2,7 @@ Ext.define('Currencies.view.charts.Charts', {
       extend : 'Ext.panel.Panel',
       xtype : 'line-marked',
       controller : 'line-marked',
-      requires : ["Ext.chart.interactions.PanZoom", "Currencies.view.charts.theme.DemoTheme", "Currencies.view.charts.axis.FixedNumericAxis"],
+      requires : ["Currencies.store.Chart","Ext.chart.plugin.ItemEvents","Ext.chart.CartesianChart","Ext.chart.interactions.PanZoom", "Currencies.view.charts.theme.DemoTheme", "Currencies.view.charts.axis.FixedNumericAxis"],
       layout: "fit",
       items : [{
             layout : {

@@ -7,10 +7,6 @@ Ext.define('Currencies.Application', {
     extend: 'Ext.app.Application',
     
     name: 'Currencies',
-
-    stores: [
-        // TODO: add global / shared stores here
-    ],
     
     launch: function () {
         Ext.util.Format.thousandSeparator = " ";
